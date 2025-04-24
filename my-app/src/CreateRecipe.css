@@ -1,0 +1,346 @@
+/* Header Styles */
+.header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 5px solid #000;
+    padding: 20px 0;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .header h1 {
+    font-family: 'Italiana', serif;
+    font-weight: 300;    
+    font-size: 50px;
+    margin-left: 40px; 
+    letter-spacing: 1px;
+  }
+  
+  .navigation {
+    margin-left: auto;
+    padding-right: 40px;
+  }
+  
+  .navigation ul {
+    display: flex;   
+    list-style: none; 
+    gap: 1.5rem;    
+    margin-left: 0;
+    padding: 0;  
+    font-family: 'Italiana', serif;
+    font-weight: 300;    
+    font-size: 25px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    color: #686666;
+    border-bottom: 1px solid #686666;
+  }
+
+  /* User Info Styles */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .user-name {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+
+/* Base Styles */
+.create-recipe-container {
+    display: flex;
+    justify-content: center;
+ width: 100%; 
+    background-color: #f9f9f9;
+    
+  }
+  
+  .recipe-form-card {
+    background: white;
+    width: 100%;
+  }
+  
+  .form-title {
+    color: black;
+    font-family: 'Italiana', serif;
+    font-weight: 600;    
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Form Elements */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: black;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 18px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4285F4;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: white;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+  }
+  
+  /* Dynamic Input Groups */
+  .dynamic-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dynamic-input {
+    flex: 1;
+    font-family: 'Instrument Sans', sans-serif;
+    margin-right: 0.5rem;
+  }
+  
+  .step-input {
+    font-family: 'Instrument Sans', sans-serif;
+    resize: vertical;
+    min-height: 60px;
+  }
+  
+  .add-button {
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #686666;
+  }
+  
+  .plus-icon {
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  
+  /* Form Layout */
+  .form-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .half-width {
+    flex: 1;
+  }
+  
+  /* Radio Buttons */
+  .radio-group {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Instrument Sans', sans-serif;
+  }
+  
+  .radio-option input {
+    margin-right: 0.5rem;
+  }
+  
+  .radio-label {
+    font-weight: normal;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    font-family: 'Instrument Sans', sans-serif;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: block;
+  margin: 2rem auto 0;
+  width: auto;
+  min-width: 200px;
+}
+  
+  .submit-button:hover {
+    background: #686666;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: #fff;
+    border-top: 5px solid #000;
+    text-align: left; 
+  }
+  
+  .footer-left {
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .footer-text {
+    margin-top: 30px;
+  }
+  
+  .footer-text p {
+    margin: 8px 0;
+    font-family: 'Instrument Sans', sans-serif;
+    color: #000;
+    line-height: 1.5;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;   
+    padding-right: 20px;
+  }
+  
+  /* Subscribe Section */
+  .subscribe-section {
+    text-align: Left;
+    padding: 0;
+    margin-top: 0;
+    border-top: none;
+    margin-bottom: 30px;  
+  }
+  
+  .subscribe-section h2 {
+    font-family: 'Instrument Sans', sans-serif;
+    color:#000;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe-container {
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+  }
+  .subscribe-container > * {
+    margin: 0;
+  }
+  .email-input {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    font-size: 20px;
+    flex-grow: 1; 
+    font-family: 'Instrument Sans', sans-serif;
+    outline: none;
+    color:#000;
+  }
+  
+  .email-input:focus {
+    outline: none;
+    border-color: #000;
+  }
+  
+  .subscribe-button {
+    padding: 12px 30px;
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #333;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .recipe-form-card {
+      padding: 1.5rem;
+    }
+    
+    .form-row {
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .half-width {
+      width: 100%;
+    }
+  }

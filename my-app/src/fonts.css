@@ -1,0 +1,20 @@
+/*@font-face {
+    font-family: 'Italia Regular';
+    src: local('Italia Regular'), 
+         url('./assets/fonts/italianaFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Optional: controls how fonts load */
+  
+
+/*@font-face{
+    font-family: "Instrument Sans", sans-serif;
+    src: local('Italia Regular'), 
+         url('./assets/fonts/instrumentSansFont.ttf') format('truetype');
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-display: swap;
+  }*/
