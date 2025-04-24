@@ -15,4 +15,3 @@ The project runs on React and is hosted on Firebase.
   - npm start
 
 The project should open in a new browser window, from there, enjoy our website!
-Johns test contributer commit
